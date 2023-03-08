@@ -2,7 +2,7 @@ import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline"
 
 export default function BannerTop() {
     return (
-        <div className="bg-vs-blue flex justify-end items-center px-4 py-1">
+        <div className="bg-vs-blue flex justify-end items-center py-2 px-8 md:px-16">
             <div className="flex flex-row gap-4 items-center">
                 <div className="flex flex-row gap-1">
                     <PhoneIcon className="w-[15px] text-vs-sky"/>

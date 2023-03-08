@@ -6,8 +6,8 @@ export default function DescriptionMain() {
                     EN LOGOS VIP CREAMOS EL LOGO INDICADO PARA TI
                 </h2>
             </div>
-            <div className="bg-gradient-to-r from-vs-blue via-vs-blue to-[#0053c1] px-8 py-8 rounded-t-3xl">
-                <p className="px-48 text-white text-center text-sm">
+            <div className="bg-gradient-to-r from-vs-blue via-vs-blue to-[#0053c1] py-4 rounded-t-3xl w-full">
+                <p className="px-16 lg:px-48 text-white text-center text-sm">
                     Logos VIP es una agencia dedicado a Diseño Grafico, somos
                     especialistas en creación de Logos, para Negocios, Empresas
                     y Artistas. Ademas brindamos servicios de Diseño

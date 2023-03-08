@@ -2,7 +2,7 @@ import { ListBulletIcon, QuestionMarkCircleIcon, UserGroupIcon } from "@heroicon
 
 export default function AccessDirect() {
     return (
-        <div className="px-16 py-4">
+        <div className="container-main">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="flex justify-center">
                     <a href="#" className="flex flex-col gap-2 justify-center">
