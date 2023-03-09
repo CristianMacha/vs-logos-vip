@@ -66,10 +66,22 @@ export default function Navigation() {
                     <div
                         className={`fixed top-0 bottom-0 left-0 right-0 bg-gray-500 z-30 flex justify-center items-center ${menu ? 'block' : 'hidden'}`}>
                         <div>
-                            <div>
+                            <div className="flex items-center justify-center">
                                 <button onClick={handleToggleMenu}>
                                     <XMarkIcon className="text-white w-10"/>
                                 </button>
+                            </div>
+                            <div className="mt-16">
+                                <ul className="flex flex-col gap-4 items-center text-white">
+                                    {links.map(({label, route}) => (
+                                        <li
+                                            key={route}
+                                            className={`font-semibold hover:text-vs-blue-500 text-sm ${router === route ? 'text-vs-blue-500' : ''}`}
+                                        >
+                                            <Link href={route} onClick={handleToggleMenu}>{label}</Link>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     </div>

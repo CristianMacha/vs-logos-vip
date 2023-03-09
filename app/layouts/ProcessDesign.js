@@ -2,7 +2,7 @@ import { Cog6ToothIcon } from "@heroicons/react/24/outline";
 
 export default function ProcessDesign() {
     return (
-        <div className="bg-vs-blue-700 py-4 px-16">
+        <div className="bg-vs-blue-700 container-main">
             <div className="flex flex-row gap-2 items-center">
                 <Cog6ToothIcon className="w-10 text-vs-sky" strokeWidth={1.5} />
                 <h1 className="text-3xl font-semibold text-white">
